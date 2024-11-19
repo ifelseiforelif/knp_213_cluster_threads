@@ -1,0 +1,19 @@
+{
+  "name": "knp_213_cluster_threads",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cluster": "node ./cluster/server.js",
+    "crypto": "node ./threads/crypto.js",
+    "threads": "node ./threads/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
